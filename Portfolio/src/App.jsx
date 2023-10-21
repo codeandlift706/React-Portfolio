@@ -12,7 +12,7 @@ export default function App() {
   
   return (
     <>
-    <Header />
+    <Header />      
     <Navbar />
     <Project />
     <Footer />
