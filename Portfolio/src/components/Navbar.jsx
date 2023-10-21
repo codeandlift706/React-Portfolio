@@ -6,11 +6,15 @@ const styles = {
         fontFamily: 'helvetica',
         flexDirection: 'row',
         alignItems: 'flex-start',
-        justifyContent: 'flex-start',
+        justifyContent: 'center',
     },
     linkStyle: {
         border: '1px black',
         padding: '5px',
+    },
+    navFont: {
+        fontFamily: 'Assistant', sansSerif,
+        fontFamily: 'Poppins', sansSerif,
     }
 };
 

@@ -15,6 +15,9 @@ export default function App() {
     <Header />      
     <Navbar />
     <Project />
+    <Project />
+    <Project />
+    <Project />
     <Footer />
     </>
     
