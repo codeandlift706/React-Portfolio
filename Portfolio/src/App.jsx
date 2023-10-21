@@ -2,8 +2,10 @@
 // import reactLogo from './assets/react.svg';
 // import viteLogo from '/vite.svg';
 import './App.css';
-import Nav from './components/Nav';
 import Header from './components/Header';
+import Project from './components/Project';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 export default function App() {
@@ -11,7 +13,9 @@ export default function App() {
   return (
     <>
     <Header />
-    <Nav />
+    <Navbar />
+    <Project />
+    <Footer />
     </>
     
     );

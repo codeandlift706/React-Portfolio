@@ -17,16 +17,16 @@ const styles = {
 function Navbar() {
     return (
         <nav style={styles.navbarStyle} className="navbar">
-                <div style={linkStyle}>
+                <div style={styles.linkStyle}>
                     <a href="#">Home</a>
                 </div>
-                <div style={linkStyle}>
+                <div style={styles.linkStyle}>
                     <a href="#">Portfolio</a>
                 </div>
-                <div style={linkStyle}>
+                <div style={styles.linkStyle}>
                     <a href="#">About Me</a>
                 </div>
-                <div style={linkStyle}>
+                <div style={styles.linkStyle}>
                     <a href="#">Contact</a>
                 </div>
         </nav>
