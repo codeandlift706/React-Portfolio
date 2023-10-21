@@ -3,12 +3,14 @@
 // import viteLogo from '/vite.svg';
 import './App.css';
 import Nav from './components/Nav';
+import Header from './components/Header';
 
 
 export default function App() {
   
   return (
     <>
+    <Header />
     <Nav />
     </>
     
