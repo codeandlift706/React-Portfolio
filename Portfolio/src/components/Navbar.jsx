@@ -3,7 +3,7 @@
 const styles = {
     navbarStyle: {
         display: 'flex',
-        fontFamily: 'helvetica',
+        // fontFamily: 'helvetica',
         flexDirection: 'row',
         alignItems: 'flex-start',
         justifyContent: 'center',
@@ -14,7 +14,8 @@ const styles = {
     },
     navFont: {
         fontFamily: 'Assistant', sansSerif,
-        fontFamily: 'Poppins', sansSerif,
+        fontWeight: 'bold',
+        color: 'red',
     }
 };
 
@@ -22,7 +23,7 @@ function Navbar() {
     return (
         <nav style={styles.navbarStyle} className="navbar">
                 <div style={styles.linkStyle}>
-                    <a href="#">Home</a>
+                    <a href="#" style={styles.navFont}>Home</a>
                 </div>
                 <div style={styles.linkStyle}>
                     <a href="#">Portfolio</a>
