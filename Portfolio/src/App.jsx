@@ -5,19 +5,25 @@ import './App.css';
 import Header from './components/Header';
 import Project from './components/Project';
 import Navbar from './components/Navbar';
+import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 
 export default function App() {
-  
+  const portfolioTitle = "Portfolio";
+
   return (
     <>
     <Header />      
     <Navbar />
+    <h2>{portfolioTitle}</h2>
     <Project />
     <Project />
     <Project />
     <Project />
+    <About />
+    <Contact />
     <Footer />
     </>
     
