@@ -16,7 +16,7 @@ const styles = {
 
 function Navbar() {
     return (
-        <section style={styles.navBarStyle} className="navbar">
+        <section style={styles.navBarStyle} className="navbar text-ellipsis" >
                 <div style={styles.linkStyle}>
                     <a href="#">Home</a>
                 </div>
