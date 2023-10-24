@@ -1,29 +1,24 @@
 // A single `Navigation` component within the header that will use `Link` components from `react-router-dom` to conditionally render the different sections of your portfolio
 
 const styles = {
-    navbarStyle: {
+    navBarStyle: {
         display: 'flex',
-        // fontFamily: 'helvetica',
+        fontFamily: 'helvetica',
         flexDirection: 'row',
         alignItems: 'flex-start',
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
     },
     linkStyle: {
         border: '1px black',
         padding: '5px',
-    },
-    navFont: {
-        fontFamily: 'Assistant', sansSerif,
-        fontWeight: 'bold',
-        color: 'red',
     }
 };
 
 function Navbar() {
     return (
-        <nav style={styles.navbarStyle} className="navbar">
+        <section style={styles.navBarStyle} className="navbar">
                 <div style={styles.linkStyle}>
-                    <a href="#" style={styles.navFont}>Home</a>
+                    <a href="#">Home</a>
                 </div>
                 <div style={styles.linkStyle}>
                     <a href="#">Portfolio</a>
@@ -34,7 +29,7 @@ function Navbar() {
                 <div style={styles.linkStyle}>
                     <a href="#">Contact</a>
                 </div>
-        </nav>
+        </section>
     );
 }
 

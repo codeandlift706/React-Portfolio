@@ -15,8 +15,8 @@ export default function App() {
 
   return (
     <>
-    <Header />      
     <Navbar />
+    <Header />      
     <h2>{portfolioTitle}</h2>
     <Project />
     <Project />

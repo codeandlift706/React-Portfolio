@@ -5,10 +5,11 @@ const styles = {
         display: 'flex',
         fontFamily: 'helvetica',
         flexDirection: 'row',
-        alignItems: 'flex-start',
-        justifyContent: 'flex-start',
+        // alignItems: 'flex-start',
+        justifyContent: 'center',
+        background: 'black',
     },
-    footerStyle: {
+    linkStyle: {
         border: '1px black',
         padding: '5px',
     }
@@ -16,20 +17,21 @@ const styles = {
 
 function Footer() {
     return (
-        <nav style={styles.footerStyle} className="footer">
+        <section style={styles.footerStyle} className="footer">
+
                 <div style={styles.linkStyle}>
-                    <a href="#">Home</a>
+                    <a href="#">GitHub</a>
                 </div>
                 <div style={styles.linkStyle}>
-                    <a href="#">Portfolio</a>
+                    <a href="#">Stack Overflow</a>
                 </div>
                 <div style={styles.linkStyle}>
-                    <a href="#">About Me</a>
+                    <a href="#">LinkedIn</a>
                 </div>
-                <div style={styles.linkStyle}>
-                    <a href="#">Contact</a>
-                </div>
-        </nav>
+                {/* <div>
+                    <p style={styles.linkStyle}>Chan Nguyen</p>
+                </div> */}
+        </section>
     );
 }
 

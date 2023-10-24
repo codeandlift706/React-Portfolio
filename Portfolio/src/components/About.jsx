@@ -20,12 +20,9 @@ const styles = {
 function About() {
     return (
         <div style={styles.card}>
-            <div style={styles.heading}>Project Name Here</div>
+            <div style={styles.heading}>About</div>
             <div style={styles.content}>
-                Project pic
-                project description
-                project link to demo
-                project link to GitHub
+About Me Section
             </div>
         </div>
     );

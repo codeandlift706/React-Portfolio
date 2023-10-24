@@ -6,11 +6,11 @@ const styles = {
         background: '#e8eaf6',
     },
     heading: {
-        background: '#3f51b5',
+        background: 'black',
         minHeight: 50,
         lineHeight: 3.5,
         fontSize: '1.2rem',
-        color: 'black',
+        color: 'white',
         padding: '0 20px',
     },
     content: {

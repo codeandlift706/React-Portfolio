@@ -1,14 +1,14 @@
 
 
 const styles = {
-    footerStyle: {
+    contactStyle: {
         display: 'flex',
         fontFamily: 'helvetica',
         flexDirection: 'row',
         alignItems: 'flex-start',
-        justifyContent: 'flex-start',
+        justifyContent: 'center',
     },
-    footerStyle: {
+    linkStyle: {
         border: '1px black',
         padding: '5px',
     }
@@ -16,20 +16,17 @@ const styles = {
 
 function Contact() {
     return (
-        <nav style={styles.footerStyle} className="footer">
+        <section style={styles.contactStyle} className="contact">
                 <div style={styles.linkStyle}>
-                    <a href="#">Home</a>
+                    <a href="#">Email</a>
                 </div>
                 <div style={styles.linkStyle}>
-                    <a href="#">Portfolio</a>
+                    <a href="#">LinkedIn</a>
                 </div>
                 <div style={styles.linkStyle}>
-                    <a href="#">About Me</a>
+                    <a href="#">Phone</a>
                 </div>
-                <div style={styles.linkStyle}>
-                    <a href="#">Contact</a>
-                </div>
-        </nav>
+        </section>
     );
 }
 
