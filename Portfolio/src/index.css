@@ -1,7 +1,6 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
-
+@tailwind utilities;
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -19,11 +18,42 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* #root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  /* align-items: center; */
+  /* font-family: Montserrat; */
+/* } */
+
+.homeTitle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 225px;
+}
+
+.portfolioPic {
+  border-radius: 100px;
+  width: 15%;
+  /* height: 10%; */
+  margin: 1rem 0 0 42%;
+
+}
+
+/* 
+.subHeading {
+  width: 90%;
+  margin-left: 45px;
+} */
+
 a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -31,15 +61,48 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  justify-content: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /* background-color: #A75D6D; */
+  background-color: black;
+  color: black;
+  /* margin-bottom: 30px; */
 }
+
+
+.nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* background-color: white; */
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.headerH1 {
+
+  -webkit-text-fill-color: #EDDDD4;
+  text-align: center;
+  font-size: 5rem;
+  
+}
+
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 
 button {
   border-radius: 8px;
@@ -59,6 +122,15 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 5px;
+}
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
