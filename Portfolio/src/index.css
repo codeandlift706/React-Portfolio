@@ -42,6 +42,14 @@
 
 }
 
+.projectContainer {
+  display: flex;
+}
+
+.card {
+  margin: 1rem;
+}
+
 /* 
 .subHeading {
   width: 90%;
@@ -66,7 +74,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   /* background-color: #A75D6D; */
-  background-color: black;
+  background-color: #231810;
   color: black;
   /* margin-bottom: 30px; */
 }

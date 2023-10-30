@@ -19,9 +19,6 @@ export default function App() {
     <Header />      
     <h2>{portfolioTitle}</h2>
     <Project />
-    <Project />
-    <Project />
-    <Project />
     <About />
     <Contact />
     <Footer />
