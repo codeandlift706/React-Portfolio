@@ -77,8 +77,8 @@ body {
   /* background-color: #A75D6D; */
   /* background-color: #231810; */
   background-color: black;
-
-  color: red;
+  font-family: 'Raleway', sans-serif;
+    color: white;
   font-size: 2rem;
   /* margin-bottom: 30px; */
 }

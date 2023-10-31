@@ -11,7 +11,7 @@ const styles = {
         background: '#e8eaf6',
     },
     heading: {
-        background: 'black',
+        // background: 'black',
         minHeight: 50,
         lineHeight: 3.5,
         fontSize: '3rem',
@@ -30,7 +30,6 @@ const styles = {
 function Project() {
     return (
         <>
-        <p>Insert logos for: HTML, CSS, Materialize, TailWind, Bootstrap, JavaScript, JQuery, Nodejs, Handlebars, NodeJs, MongoDB, MySQL, Mongoose, React, MERN</p>
         <h2 style={styles.heading}>My Projects</h2>
         <h3>Check out some projects:</h3>
             <div class="projectContainer">
@@ -116,6 +115,7 @@ function Project() {
                     </div>
                 </div>
             </div>
+            <p>Insert logos for: HTML, CSS, Materialize, TailWind, Bootstrap, JavaScript, JQuery, Nodejs, Handlebars, NodeJs, MongoDB, MySQL, Mongoose, React, MERN</p>
 
 
 
