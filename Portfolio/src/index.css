@@ -35,7 +35,7 @@
 }
 
 .portfolioPic {
-  border-radius: 100px;
+  border-radius: 140px;
   width: 15%;
   /* height: 10%; */
   margin: 1rem 0 0 42%;
@@ -48,7 +48,7 @@
 }
 
 .card {
-  margin: 1.3rem;
+  margin: 6rem;
 }
 
 /* 

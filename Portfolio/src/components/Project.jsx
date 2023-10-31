@@ -23,7 +23,7 @@ const styles = {
     // },
     size: {
         height: '30%',
-        width: '30%'
+        width: '22%'
     }
 };
 
