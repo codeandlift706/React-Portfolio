@@ -13,7 +13,7 @@ const styles = {
         background: 'black',
         minHeight: 50,
         lineHeight: 3.5,
-        fontSize: '1.2rem',
+        fontSize: '3rem',
         color: 'white',
         padding: '0 20px',
     },
@@ -29,6 +29,9 @@ const styles = {
 function Project() {
     return (
         <>
+        <p>Insert logos for: HTML, CSS, Materialize, TailWind, Bootstrap, JavaScript, JQuery, Nodejs, Handlebars, NodeJs, MongoDB, MySQL, Mongoose, React, MERN</p>
+        <h2 style={styles.heading}>My Projects</h2>
+        <h3>Check out some projects:</h3>
             <div class="projectContainer">
                 <div class="card" style={styles.size}>
                     <div class="card-image waves-effect waves-block waves-light">

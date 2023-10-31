@@ -74,8 +74,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   /* background-color: #A75D6D; */
-  background-color: #231810;
-  color: black;
+  /* background-color: #231810; */
+  background-color: black;
+
+  color: red;
   /* margin-bottom: 30px; */
 }
 

@@ -11,15 +11,13 @@ import Footer from './components/Footer';
 
 
 export default function App() {
-  const portfolioTitle = "Portfolio";
 
   return (
     <>
     <Navbar />
     <Header />      
-    <h2>{portfolioTitle}</h2>
-    <Project />
     <About />
+    <Project />
     <Contact />
     <Footer />
     </>
