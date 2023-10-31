@@ -44,10 +44,11 @@
 
 .projectContainer {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-  margin: 1rem;
+  margin: 1.3rem;
 }
 
 /* 
@@ -68,9 +69,9 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  place-items: center;
+  place-items: center; */
   min-width: 320px;
   min-height: 100vh;
   /* background-color: #A75D6D; */
@@ -78,6 +79,7 @@ body {
   background-color: black;
 
   color: red;
+  font-size: 2rem;
   /* margin-bottom: 30px; */
 }
 

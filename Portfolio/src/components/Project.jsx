@@ -18,12 +18,12 @@ const styles = {
         color: 'white',
         padding: '0 20px',
     },
-    content: {
-        padding: 20,
-    },
+    // content: {
+    //     padding: 5,
+    // },
     size: {
-        height: '40%',
-        width: '40%'
+        height: '30%',
+        width: '30%'
     }
 };
 
