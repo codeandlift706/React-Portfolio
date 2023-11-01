@@ -22,38 +22,37 @@
   display: flex;
   justify-content: center;
   flex-direction: column; */
-  /* align-items: center; */
-  /* font-family: Montserrat; */
-  /* } */
+/* align-items: center; */
+/* font-family: Montserrat; */
+/* } */
 
-  body {
-    margin: 0;
-    /* display: flex;
-    justify-content: center;
-    place-items: center; */
-    /* min-width: 320px;
+body {
+  margin: 0;
+  display: flex;
+  /* min-width: 320px;
     min-height: 100vh; */
-    /* background-color: #A75D6D; */
-    /* background-color: #231810; */
-    background-color: purple;
-    font-family: 'Raleway', sans-serif;
-      color: pink;
-    font-size: 2rem;
-    /* margin-bottom: 30px; */
-  }
-  
-.homeTitle {
+  /* background-color: #A75D6D; */
+  /* background-color: #231810; */
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  color: orange;
+  font-size: 1.5rem;
+}
+
+
+/* .homeTitle {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-direction: column;
-  margin-top: 225px;
-}
+  flex-direction: column; */
+  /* margin-top: 225px; */
+
 
 .bothTitles {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 12rem;
 
 }
 
@@ -63,6 +62,11 @@
   /* height: 10%; */
   margin: 1rem 0 0 42%;
 
+}
+
+#home {
+  background-image: url(../public/cityBackground.png);
+  background-size: cover;
 }
 
 .projectContainer {
@@ -112,7 +116,7 @@ footer {
   -webkit-text-fill-color: #EDDDD4;
   text-align: center;
   font-size: 5rem;
-  
+
 }
 
 
@@ -133,9 +137,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -154,9 +160,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }

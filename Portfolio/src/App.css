@@ -4,8 +4,10 @@
 
 #root {
   /* max-width: 1500px; */
-  margin: 0 auto;
-  padding: 2rem;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
