@@ -32,11 +32,10 @@ const styles = {
 function Project() {
     return (
         <>
-            <div style={styles.heading} id="project"></div>
+            {/* <div style={styles.heading} id="project"></div> */}
+                    <h2>My Work</h2>
             <div class="projectContainer">
                 <div>
-                    {/* <h2>My Work</h2>
-                    <h3>Check out some projects:</h3> */}
                 </div>
                 <div class="card" style={styles.size}>
                     <div class="card-image waves-effect waves-block waves-light">
