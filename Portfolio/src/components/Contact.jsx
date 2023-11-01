@@ -16,7 +16,7 @@ const styles = {
 
 function Contact() {
     return (
-        <section style={styles.contactStyle} className="contact">
+        <section style={styles.contactStyle} className="contact" id="contact">
                 <div style={styles.linkStyle}>
                     <a href="#">Email</a>
                 </div>

@@ -31,7 +31,7 @@ const styles = {
 function Project() {
     return (
         <>
-        <h2 style={styles.heading}>My Projects</h2>
+        <h2 style={styles.heading} id="project">My Projects</h2>
         <h3>Check out some projects:</h3>
             <div class="projectContainer">
 

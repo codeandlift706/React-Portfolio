@@ -17,7 +17,7 @@ const styles = {
 
 function About() {
     return (
-        <div style={styles.card}>
+        <div style={styles.card} id="about">
             <div style={styles.heading}>about me</div>
             <div style={styles.content}>
                 <p>Orange County, Calfornia.</p> 

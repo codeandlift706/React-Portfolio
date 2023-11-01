@@ -35,16 +35,16 @@ function Navbar() {
     return (
         <ul className="nav nav-tabs">
             <li className="nav-item">
-                <img src="../homeicon.svg" className="icon hover:animate-pulse" alt="LinkedIn logo icon"></img>
+                <a href="#home"><img src="../homeicon.svg" className="icon hover:animate-pulse" alt="home icon" /></a>
             </li>
             <li className="nav-item">
-                <img src="../abouticon.svg" className="icon hover:animate-pulse" alt="LinkedIn logo icon"></img>
+                <a href="#about"><img src="../abouticon.svg" className="icon hover:animate-pulse" alt="about icon" /></a>
             </li>
             <li className="nav-item">
-                <img src="../projecticon.svg" className="icon hover:animate-pulse" alt="LinkedIn logo icon"></img>
+                <a href="#project"><img src="../projecticon.svg" className="icon hover:animate-pulse" alt="project icon" /></a>
             </li>
             <li className="nav-item">
-                <img src="../contacticon.svg" className="icon hover:animate-pulse" alt="LinkedIn logo icon"></img>
+                <a href="#contact"><img src="../contacticon.svg" className="icon hover:animate-pulse" alt="contact icon"/></a>
             </li>
         </ul>
     );
