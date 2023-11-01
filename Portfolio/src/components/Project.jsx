@@ -16,7 +16,8 @@ const styles = {
         lineHeight: 3.5,
         fontSize: '3rem',
         color: 'white',
-        padding: '0 20px',
+        backgroundColor: '#47364A',
+        padding: '3rem',
     },
     // content: {
     //     padding: 5,
@@ -31,16 +32,18 @@ const styles = {
 function Project() {
     return (
         <>
-        <h2 style={styles.heading} id="project">My Projects</h2>
-        <h3>Check out some projects:</h3>
+            <div style={styles.heading} id="project"></div>
             <div class="projectContainer">
-
+                <div>
+                    {/* <h2>My Work</h2>
+                    <h3>Check out some projects:</h3> */}
+                </div>
                 <div class="card" style={styles.size}>
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src={fridge} />
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Single Page App - COMING SOON<i class="material-icons right">more_vert</i></span>                        
+                        <span class="card-title activator grey-text text-darken-4">Single Page App - COMING SOON<i class="material-icons right">more_vert</i></span>
                         <img src="../../githubicon.svg" href="#" className="icon hover:animate-pulse" alt="Github logo icon"></img>
                         <p><a href="#">Demo</a></p>
                     </div>
@@ -56,7 +59,7 @@ function Project() {
                         <img class="activator" src={girlsHelpDesk} />
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Girls Help Desk<i class="material-icons right">more_vert</i></span>                        
+                        <span class="card-title activator grey-text text-darken-4">Girls Help Desk<i class="material-icons right">more_vert</i></span>
                         <a href="https://github.com/Vannasaur/girls-help-desk" target="_blank"><img src="../../githubicon.svg" className="icon hover:animate-pulse" alt="Github logo" /></a>
                         <p><a href="https://github.com/Vannasaur/girls-help-desk">Demo</a></p>
 

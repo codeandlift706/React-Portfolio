@@ -35,7 +35,7 @@ body {
   /* background-color: #231810; */
   background-color: white;
   font-family: 'Raleway', sans-serif;
-  color: orange;
+  color: white;
   font-size: 1.5rem;
 }
 
@@ -58,11 +58,9 @@ body {
 }
 
 .portfolioPic {
-  border-radius: 140px;
-  width: 15%;
+  border-radius: 200px;
+  width: 30%;
   /* height: 10%; */
-  margin: 1rem 0 0 42%;
-
 }
 
 #home {
@@ -70,10 +68,22 @@ body {
   background-size: cover;
 }
 
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#aboutHead {
+  background-image: url(../public/cnTower.JPG);
+}
+
 .projectContainer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  /* flex-direction: column; */
+  background-color: #B185A7;
 }
 
 /* .card {
