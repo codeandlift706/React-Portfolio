@@ -1,8 +1,8 @@
 
 const styles = {
     card: {
-        margin: '5rem',
-        padding: '5rem',
+        margin: '1rem',
+        padding: '1rem',
     },
     heading: {
         minHeight: 50,
@@ -13,7 +13,7 @@ const styles = {
         // backgroundImage: url("cityBackground.png"),
     },
     content: {
-        padding: 20,
+        padding: 5,
     },
 };
 

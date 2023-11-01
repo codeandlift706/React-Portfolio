@@ -51,8 +51,9 @@ body {
 .bothTitles {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin: 12rem;
+  margin: 17rem 8rem 35rem 8rem;
 
 }
 
@@ -65,7 +66,7 @@ body {
 }
 
 #home {
-  background-image: url(../public/cityBackground.png);
+  background-image: url(../public/canadaSkyline.JPG);
   background-size: cover;
 }
 
@@ -121,8 +122,13 @@ footer {
 
 
 h1 {
-  font-size: 3.2em;
+  font-size: 5rem;
   line-height: 1.1;
+  color: black;
+}
+
+h2 {
+color: black;
 }
 
 
