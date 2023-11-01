@@ -20,12 +20,12 @@ const styles = {
         justifyContent: 'center',
     },
     size: {
-        height: '75%',
-        width: '75%',
+        height: '100%',
+        width: '100%',
     },
     subsize: {
-        height: '50%',
-        width: '50%',
+        height: '100%',
+        width: '100%',
     }
 };
 
@@ -34,12 +34,12 @@ const styles = {
 function Header() {
     return (
         <header className="homeTitle">
-<div>
-            <img src={nameTitle} style={styles.size} alt="header title"/>
-            <img src={subTitle} style={styles.subsize} alt="header subtitle" className="subHeading"/>
-            <img src={portfolioPic} alt="picture" className="portfolioPic"/>
+            <div className="bothTitles">
+                <img src={nameTitle} style={styles.size} alt="header title" />
+                <img src={subTitle} style={styles.subsize} alt="header subtitle" className="subHeading" />
+                <img src={portfolioPic} alt="picture" className="portfolioPic" />
 
-</div>
+            </div>
 
         </header>
     );
