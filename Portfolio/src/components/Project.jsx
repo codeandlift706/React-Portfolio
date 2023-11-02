@@ -4,6 +4,19 @@ import projectHeading from '../assets/projectHeading.png'
 import girlsHelpDesk from '../assets/GirlsHelpDesk.png'
 import fridge from '../assets/Fridge.png'
 // import githubicon from '../../public/githubicon.svg'
+import html from '../../public/htmlLogo.svg'
+import css from '../../public/cssLogo.svg'
+import materialize from '../../public/materializeLogo.svg'
+import tailwind from '../../public/tailwindLogo.svg'
+import bootstrap from '../../public/bootstrapLogo.svg'
+import javascript from '../../public/javascriptLogo.svg'
+import jquery from '../../public/jqueryLogo.svg'
+import node from '../../public/nodeLogo.svg'
+import express from '../../public/expressLogo.svg'
+import handlebars from '../../public/handlebarsLogo.svg'
+import mongodb from '../../public/mongodbLogo.svg'
+import mysql from '../../public/mysqlLogo.svg'
+import mongoose from '../../public/mongooseLogo.svg'
 
 
 const styles = {
@@ -17,7 +30,7 @@ const styles = {
         fontSize: '3rem',
         color: 'white',
         backgroundColor: 'black',
-        padding: '1rem',
+        padding: '1.5rem',
     },
     // content: {
     //     padding: 5,
@@ -31,7 +44,7 @@ const styles = {
     //     border: black,
     // },
     iconBar: {
-        backgroundColor: 'black',
+        backgroundColor: 'gray',
         padding: '2rem',
         color: 'white',
     }
@@ -45,7 +58,6 @@ function Project() {
             </div>
 
             <div class="projectContainer">
-
 
                 <div class="row">
                     <div class="col s12 m7">
@@ -132,7 +144,7 @@ function Project() {
                                 <p>Refactor a Google Books API search engine built with a RESTful API to be a GraphQL API built with Apollo Server using the MERN stack.</p>
                             </div>
                             <div class="card-action">
-                            <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Book-Search-Engine" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
+                                <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Book-Search-Engine" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
                                 <a class="demo" href="https://book-search-engine-1lzm.onrender.com/">Demo</a>
                             </div>
                         </div>
@@ -150,9 +162,9 @@ function Project() {
                                 <p>Build a weather forecast dashboard to run in the browser that features dynamically updated HTML and CSS.</p>
                             </div>
                             <div class="card-action">
-                            <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Weather-Dashboard" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
-                                <a class="demo" href="https://codeandlift706.github.io/Weather-Dashboard/">Demo</a>                            
-                                </div>
+                                <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Weather-Dashboard" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
+                                <a class="demo" href="https://codeandlift706.github.io/Weather-Dashboard/">Demo</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -160,6 +172,23 @@ function Project() {
 
             <div style={styles.iconBar}>
                 <p>Insert logos for: HTML, CSS, Materialize, TailWind, Bootstrap, JavaScript, JQuery, Nodejs, Handlebars, NodeJs, MongoDB, MySQL, Mongoose, React, MERN</p>
+                <div class="tech-icon tooltip">
+                    <a><img src={html} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={css} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={materialize} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={tailwind} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={bootstrap} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={javascript} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={jquery} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={node} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={express} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={handlebars} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={mongodb} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={mysql} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={mongoose} class="tech-icon tooltiptext" alt="" /></a>
+
+
+                </div>
             </div>
 
 
