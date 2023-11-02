@@ -1,5 +1,6 @@
 // A single `Project` component that will be used multiple times in the Portfolio section
 
+import projectHeading from '../assets/projectHeading.png'
 import girlsHelpDesk from '../assets/GirlsHelpDesk.png'
 import fridge from '../assets/Fridge.png'
 // import githubicon from '../../public/githubicon.svg'
@@ -11,12 +12,11 @@ const styles = {
         background: '#e8eaf6',
     },
     heading: {
-        // background: 'black',
         minHeight: 50,
         lineHeight: 3.5,
         fontSize: '3rem',
         color: 'white',
-        backgroundColor: '#47364A',
+        // backgroundColor: '#47364A',
         padding: '3rem',
     },
     // content: {
@@ -32,8 +32,10 @@ const styles = {
 function Project() {
     return (
         <>
-            {/* <div style={styles.heading} id="project"></div> */}
-                    <h2>My Work</h2>
+            <div style={styles.heading} id="project">
+            <img src={projectHeading} alt="header title" />
+            </div>
+
             <div class="projectContainer">
                 <div>
                 </div>

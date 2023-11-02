@@ -35,7 +35,7 @@ body {
   /* background-color: #231810; */
   background-color: white;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: black;
   font-size: 1.5rem;
 }
 
@@ -76,6 +76,13 @@ body {
 
 #aboutHead {
   background-image: url(../public/cnTower.JPG);
+  display: flex;
+  justify-content: center;
+}
+
+#project {
+  display: flex;
+  justify-content: center;
 }
 
 .projectContainer {
@@ -84,6 +91,18 @@ body {
   flex-wrap: wrap;
   /* flex-direction: column; */
   background-color: white;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contactHead {
+  background-image: url(../public/niagara.JPG);
+  display: flex;
+  justify-content: center;
 }
 
 /* .card {
