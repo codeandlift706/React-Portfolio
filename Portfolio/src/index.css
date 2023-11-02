@@ -57,11 +57,6 @@ body {
 
 }
 
-.portfolioPic {
-  border-radius: 200px;
-  width: 30%;
-  /* height: 10%; */
-}
 
 #home {
   background-image: url(../public/canadaSkyline.JPG);
@@ -78,6 +73,13 @@ body {
   background-image: url(../public/cnTower.JPG);
   display: flex;
   justify-content: center;
+}
+
+.aboutContent {
+  margin: 3rem 5rem 3rem 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #project {
@@ -104,16 +106,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
-/* .card {
-  margin: 2rem;
-} */
-
-/* 
-.subHeading {
-  width: 90%;
-  margin-left: 45px;
-} */
 
 a {
   font-weight: 500;
