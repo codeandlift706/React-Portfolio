@@ -16,22 +16,6 @@ const styles = {
 };
 
 function Navbar() {
-    // return (
-    //     <section style={styles.navBarStyle} className="navbar font-extrabold" >
-    //         <div style={styles.linkStyle}>
-    //             <a href="#">Home</a>
-    //         </div>
-    //         <div style={styles.linkStyle}>
-    //             <a href="#">Portfolio</a>
-    //         </div>
-    //         <div style={styles.linkStyle}>
-    //             <a href="#">About</a>
-    //         </div>
-    //         <div style={styles.linkStyle}>
-    //             <a href="#">Contact</a>
-    //         </div>
-    //     </section>
-    // );
     return (
         <ul className="nav nav-tabs">
             <li className="nav-item">
