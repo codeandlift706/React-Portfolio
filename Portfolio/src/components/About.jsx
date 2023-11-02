@@ -1,6 +1,5 @@
 
 import aboutHeading from '../assets/aboutHeading.png'
-import portfolioPic from '../assets/portfolioPic.png'
 import portfolioPic2 from '../assets/portfolioPic2.jpg'
 
 const styles = {

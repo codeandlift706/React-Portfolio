@@ -14,13 +14,10 @@ const styles = {
         padding: '5px',
     },
     heading: {
-        minHeight: 50,
-        pneHeight: 3.5,
+        // minHeight: 50,
+        // pneHeight: 3.5,
         fontSize: '4rem',
         color: 'white',
-        // marginTop: '25rem',
-        // margin: '25rem',
-        // backgroundImage: url("cityBackground.png"),
         padding: '16rem',
     },
 };
