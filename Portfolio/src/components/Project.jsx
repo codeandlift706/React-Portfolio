@@ -44,8 +44,8 @@ const styles = {
     //     border: black,
     // },
     iconBar: {
-        backgroundColor: 'gray',
-        padding: '2rem',
+        backgroundColor: 'black',
+        padding: '0.4rem',
         color: 'white',
     }
 };
@@ -171,7 +171,6 @@ function Project() {
             </div>
 
             <div style={styles.iconBar}>
-                <p>Insert logos for: HTML, CSS, Materialize, TailWind, Bootstrap, JavaScript, JQuery, Nodejs, Handlebars, NodeJs, MongoDB, MySQL, Mongoose, React, MERN</p>
                 <div class="tech-icon tooltip">
                     <a><img src={html} class="tech-icon tooltiptext" alt="" /></a>
                     <a><img src={css} class="tech-icon tooltiptext" alt="" /></a>
@@ -186,8 +185,6 @@ function Project() {
                     <a><img src={mongodb} class="tech-icon tooltiptext" alt="" /></a>
                     <a><img src={mysql} class="tech-icon tooltiptext" alt="" /></a>
                     <a><img src={mongoose} class="tech-icon tooltiptext" alt="" /></a>
-
-
                 </div>
             </div>
 
