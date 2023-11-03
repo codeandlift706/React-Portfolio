@@ -1,6 +1,9 @@
+import React from 'react';
+import Collapsible from 'react-collapsible';
 
 import aboutHeading from '../assets/aboutHeading.png'
 import portfolioPic2 from '../assets/portfolioPic2.jpg'
+
 
 const styles = {
     card: {
@@ -25,6 +28,8 @@ const styles = {
 };
 
 function About() {
+
+
     return (
         <>
 
@@ -32,6 +37,20 @@ function About() {
                 <div style={styles.heading} id="aboutHead">
                     <img src={aboutHeading} alt="header title" />
                 </div>
+
+
+                <Collapsible trigger="Start here">
+                    <p>
+                        This is the collapsible content. It can be any element or React
+                        component you like.
+                    </p>
+                    <p>
+                        It can even be another Collapsible component. Check out the next
+                        section!
+                    </p>
+                </Collapsible>
+
+
 
                 <div class="aboutContent">
                     <img style={styles.picture} src={portfolioPic2} alt="picture" />
