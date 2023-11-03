@@ -93,7 +93,7 @@ width: 400px;
 }
 
 .tooltip .tech-icon {
-  visibility: hidden;
+  /* visibility: hidden; */
   opacity: 0.5;
   width: 120px;
   text-align: center;
@@ -220,7 +220,7 @@ width: 400px;
   background-image: url(../public/cnTower.JPG);
   display: flex;
   justify-content: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .aboutContent {
@@ -255,7 +255,7 @@ width: 400px;
   background-image: url(../public/niagara.JPG);
   display: flex;
   justify-content: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 a {

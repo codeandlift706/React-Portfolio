@@ -44,7 +44,7 @@ const styles = {
     //     border: black,
     // },
     iconBar: {
-        backgroundColor: 'black',
+        backgroundColor: 'gray',
         padding: '0.4rem',
         color: 'white',
     }
