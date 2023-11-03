@@ -18,12 +18,11 @@ const styles = {
     },
     content: {
         padding: '5em',
-        fontSize: '1.3rem',
     },
     picture: {
         // marginLeft: '8rem',
         borderRadius: '200px',
-        width: '20%',
+        width: '30%',
     },
 };
 
@@ -38,29 +37,34 @@ function About() {
                     <img src={aboutHeading} alt="header title" />
                 </div>
 
-
-                <Collapsible trigger="Start here">
-                    <p>
-                        This is the collapsible content. It can be any element or React
-                        component you like.
-                    </p>
-                    <p>
-                        It can even be another Collapsible component. Check out the next
-                        section!
-                    </p>
-                </Collapsible>
-
-
-
                 <div class="aboutContent">
                     <img style={styles.picture} src={portfolioPic2} alt="picture" />
+
                     <div style={styles.content}>
-                        <p>Born in Montreal, Quebec & Raised in Orange County, Calfornia.</p>
-                        <p>Dog lover, fantasy football enthusiast, lifter. </p>
-                        <p>Aspiring to transition from HR professional into the world of coding, determined to keep learning the programming languages needed to succeed and master web & software development. </p>
-                        <p>Aiming to apply my +4 years of project management experience and continuous improvement mindset to design and enhance user interfaces. </p>
-                        <p></p>
+
+                        <div class="progress white">
+                            <div class="indeterminate black"></div>
+                        </div>
+
+                        <Collapsible trigger="A Little About Me">
+                            <p class="collapseP">Born in Montreal, Quebec & raised in Orange County, Calfornia.</p>
+                            <p class="collapseP">Husky enthusiast, fantasy football player, growing powerlifter. </p>
+                        </Collapsible>
+
+                        <Collapsible trigger="Life Before Tech">
+                            <p class="collapseP">Previous HR Professional leveraging +4 years of project management experience and a continuous improvement mindset to become a "master of sport" in web development. </p>
+                        </Collapsible>
+
+                        <Collapsible trigger="Here & Now">
+                            <p class="collapseP">
+                                Ready to leverage my curious nature to find ways to design and ehance user interfaces. I've enjoyed what I've learned so far, and plan to keep learning and growing.
+                                Please see my resume here:
+                            </p>
+                        </Collapsible>
+                        
+
                     </div>
+
                 </div>
 
             </div>

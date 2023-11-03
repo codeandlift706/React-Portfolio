@@ -108,13 +108,13 @@ width: 400px;
   display: flex;
 }
 
-.card-image {
+/* .card-image {
   opacity: 0.5;
 }
 
 .card-image:hover {
   opacity: 1.0;
-}
+} */
 
 .card-content {
   font-size: 1.2rem;
@@ -140,6 +140,24 @@ width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Collapsible {
+  color: black;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+/* .Collapsible:hover {
+  opacity: 0.5;
+} */
+
+.collapseP {
+  font-size: 1.5rem;
+}
+.collapseP:hover {
+  color: pink;
+  font-size: 1.5rem;
 }
 
 #contact {
