@@ -87,7 +87,7 @@ width: 400px;
   margin-right: 10px;
 }
 
-.tooltip .tooltiptext {
+.tooltip .tech-icon {
   visibility: hidden;
   opacity: 0.5;
   width: 120px;
@@ -103,6 +103,91 @@ width: 400px;
   background-color: rgba(0, 0, 255, 0.7);
   transition: background-color 2s ease-out 100ms;
 }
+
+.tooltip:hover .tooltiptext2 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(255, 0, 0, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext3 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(9, 255, 0, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext4 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(255, 247, 0, 0.818);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext5 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 213, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext6 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 0, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext7 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 0, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext8 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 0, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext9 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 0, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext10 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 0, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext11 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 0, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext12 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 0, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
+.tooltip:hover .tooltiptext13 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: rgba(0, 0, 255, 0.7);
+  transition: background-color 2s ease-out 100ms;
+}
+
 
 .tech-icon {
   display: flex;
@@ -148,9 +233,6 @@ width: 400px;
   font-size: 2rem;
 }
 
-/* .Collapsible:hover {
-  opacity: 0.5;
-} */
 
 .collapseP {
   font-size: 1.5rem;

@@ -173,18 +173,18 @@ function Project() {
             <div style={styles.iconBar}>
                 <div class="tech-icon tooltip">
                     <a><img src={html} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={css} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={materialize} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={tailwind} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={bootstrap} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={javascript} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={jquery} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={node} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={express} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={handlebars} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={mongodb} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={mysql} class="tech-icon tooltiptext" alt="" /></a>
-                    <a><img src={mongoose} class="tech-icon tooltiptext" alt="" /></a>
+                    <a><img src={css} class="tech-icon tooltiptext2" alt="" /></a>
+                    <a><img src={materialize} class="tech-icon tooltiptext3" alt="" /></a>
+                    <a><img src={tailwind} class="tech-icon tooltiptext4" alt="" /></a>
+                    <a><img src={bootstrap} class="tech-icon tooltiptext5" alt="" /></a>
+                    <a><img src={javascript} class="tech-icon tooltiptext6" alt="" /></a>
+                    <a><img src={jquery} class="tech-icon tooltiptext7" alt="" /></a>
+                    <a><img src={node} class="tech-icon tooltiptext8" alt="" /></a>
+                    <a><img src={express} class="tech-icon tooltiptext9" alt="" /></a>
+                    <a><img src={handlebars} class="tech-icon tooltiptext10" alt="" /></a>
+                    <a><img src={mongodb} class="tech-icon tooltiptext11" alt="" /></a>
+                    <a><img src={mysql} class="tech-icon tooltiptext12" alt="" /></a>
+                    <a><img src={mongoose} class="tech-icon tooltiptext13" alt="" /></a>
                 </div>
             </div>
 
