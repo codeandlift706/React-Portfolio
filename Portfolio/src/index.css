@@ -82,8 +82,14 @@ body {
 }
 
 .card-icon {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2rem;
+  margin-right: 10px;
+}
+
+.footer-icon {
+  width: 3.2rem;
+  height: 3.2rem;
   margin-right: 10px;
 }
 
@@ -215,6 +221,10 @@ body {
 .card-content {
   font-size: 1.2rem;
   font-style: italic;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+color: black;
 }
 
 
