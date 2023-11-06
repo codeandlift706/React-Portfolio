@@ -17,15 +17,14 @@ function Footer() {
     return (
         <section style={styles.footerStyle} className="footer">
 
-                <div style={styles.linkStyle}>
-                <img src="../../githubicon.svg" href="https://github.com/codeandlift706" className="footer-icon hover:animate-pulse" alt="Github logo icon"></img>
-                </div>
-                <div style={styles.linkStyle}>
-                <img src="../../linkedinicon.svg" href="https://www.linkedin.com/in/chan-nguyen-57184223a/" className="footer-icon hover:animate-pulse" alt="LinkedIn logo icon"></img>
-                </div>
-                                {/* <div style={styles.linkStyle}>
-                <img src="../../chanLogo.png" href="https://www.linkedin.com/in/chan-nguyen-57184223a/" className="cn-logo hover:animate-pulse" alt="LinkedIn logo icon"></img>
-                </div> */}
+            <div style={styles.linkStyle}>
+                <a href="https://github.com/codeandlift70"><img src="../../githubicon.svg" className="footer-icon hover:animate-pulse" alt="Github logo icon" /></a>
+            </div>
+
+            <div style={styles.linkStyle}>
+                <a href="https://www.linkedin.com/in/chan-nguyen-57184223a/"><img src="../../linkedinicon.svg" className="footer-icon hover:animate-pulse" alt="Linkedin logo icon" /></a>
+            </div>
+
         </section>
     );
 }

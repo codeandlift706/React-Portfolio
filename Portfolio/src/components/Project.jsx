@@ -18,6 +18,8 @@ import handlebars from '../../public/handlebarsLogo.svg'
 import mongodb from '../../public/mongodbLogo.svg'
 import mysql from '../../public/mysqlLogo.svg'
 import mongoose from '../../public/mongooseLogo.svg'
+import react from '../../public/reactLogo.svg'
+
 
 
 const styles = {
@@ -65,16 +67,16 @@ function Project() {
                         <div class="card">
                             <div class="card-image">
                                 <img src={soon} />
-                                <span class="card-title">Type Racer</span>
                             </div>
                             <div class="card-content">
-                                <p>Type Racer Game</p>
+                                <p>TypeTester Game</p>
                                 <p>
                                     Create a MERN stack app with React, GraphQL, Node.js, Express.js, MongoDB, & Mongoose ODM.
                                 </p>
                             </div>
                             <div class="card-action">
-                                <img src="../../githubicon.svg" href="#" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
+                                <a href="#"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
+
                                 <a class="demo" href="#">Demo</a>
                             </div>
                         </div>
@@ -87,10 +89,8 @@ function Project() {
                         <div class="card">
                             <div class="card-image">
                                 <img src={girlsHelpDesk} />
-                                <span class="card-title">Girls Help Desk</span>
                             </div>
                             <div class="card-content">
-                                {/* <p>Create a full-stack application using Node.js & Express.js to create a RESTful API, Handlebars.js as the templating engine, and MySQL & the Sequelize ORM for the database.</p> */}
                                 <p>Girls Help Desk</p>
                                 <p>Create a help desk ticketing app with Node.js, Express.js, Handlebars.js, MySQL, & Sequelize ORM.</p>
 
@@ -115,7 +115,7 @@ function Project() {
                                 <p>Generate recipes and nutritional facts using Database API's that features dynamically updated HTML & CSS.</p>
                             </div>
                             <div class="card-action">
-                                <img src="../../githubicon.svg" href="https://github.com/Vannasaur/girls-help-desk" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
+                                <a href="https://github.com/Vannasaur/girls-help-desk"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
                                 <a class="demo" href="https://github.com/Vannasaur/girls-help-desk">Demo</a>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ function Project() {
                                 <p>Build a social network web app using Express.js, MongoDB database, & Mongoose ODM.</p>
                             </div>
                             <div class="card-action">
-                                <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Social-Network-API" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
+                                <a href="https://github.com/codeandlift706/Social-Network-API"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
                                 <a class="demo" href="https://drive.google.com/file/d/197kZ45mBUmqM12JN_hLi1qhese3szY-A/view">Demo</a>
                             </div>
                         </div>
@@ -151,7 +151,7 @@ function Project() {
                                 <p>Refactor a Google Books API search engine to a GraphQL API with Apollo Server using the MERN stack.</p>
                             </div>
                             <div class="card-action">
-                                <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Book-Search-Engine" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
+                                <a href="https://github.com/codeandlift706/Book-Search-Engine"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
                                 <a class="demo" href="https://book-search-engine-1lzm.onrender.com/">Demo</a>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ function Project() {
                                 <p>Build a weather forecast dashboard to run in the browser that features dynamically updated HTML & CSS.</p>
                             </div>
                             <div class="card-action">
-                                <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Weather-Dashboard" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
+                                <a href="https://github.com/codeandlift706/Weather-Dashboard"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
                                 <a class="demo" href="https://codeandlift706.github.io/Weather-Dashboard/">Demo</a>
                             </div>
                         </div>
@@ -227,6 +227,10 @@ function Project() {
 
                 <div class="tech-icon tooltip">
                     <a><img src={mongoose} class="tech-icon tooltiptext13" alt="" /></a>
+                </div>
+
+                <div class="tech-icon tooltip">
+                    <a><img src={react} class="tech-icon tooltiptext14" alt="" /></a>
                 </div>
             </div>
 

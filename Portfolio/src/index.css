@@ -30,7 +30,6 @@ body {
 }
 
 .nav {
-  /* display: flex; */
   position: fixed;
   top: 0;
 }
@@ -74,16 +73,14 @@ body {
   width: 350px;
 }
 
-.card-action {
-  display: flex;
-  justify-content: center;
-}
 
 .card-icon {
   width: 2.5rem;
   height: 2rem;
   margin-right: 10px;
 }
+
+
 
 .footer-icon {
   width: 3.2rem;
@@ -203,28 +200,43 @@ body {
   transition: background-color 1s ease-out 100ms;
 }
 
+.tooltip:hover .tooltiptext14 {
+  visibility: visible;
+  opacity: 1.0;
+  background-color: #61dbfb;
+  transition: background-color 1s ease-out 100ms;
+}
 
 .tech-icon {
   display: flex;
 }
 
-/* .card-image {
-  opacity: 0.5;
+.card {
+  /* filter: drop-shadow(30px 10px 4px #4444dd); */
+  filter: drop-shadow( 1rem 1rem 10px);
 }
-
-.card-image:hover {
-  opacity: 1.0;
-} */
 
 .card-content {
   font-size: 1.2rem;
   font-style: italic;
+  /* background-color: #453F41; */
+  color: black;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
 color: black;
 }
 
+.card .card-action:hover a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+/* opacity: 0.5; */
+color: black;
+}
+
+.card-action {
+  display: flex;
+  justify-content: center;
+  background-color: #453F41;
+}
 
 #about {
   display: flex;
