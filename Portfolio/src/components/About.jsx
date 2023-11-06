@@ -52,13 +52,12 @@ function About() {
                         </Collapsible>
 
                         <Collapsible trigger="Life Before Tech">
-                            <p class="collapseP">Previous HR Professional leveraging +4 years of project management experience and a continuous improvement mindset to become a "master of sport" in web development. </p>
+                            <p class="collapseP">HR professional with over four years of project management experience and a continuous improvement mindset seeking to transition into the field of web development. Having excelled at creating programs, workflows, and processes while supporting employee development, I have honed my critical thinking, problem-solving, and creative skills. Driven by an insatiable curiosity about the world of web development, I am now determined to pursue this passion and leave behind the "what if's" of an unfulfilled path. </p>
                         </Collapsible>
 
                         <Collapsible trigger="Here & Now">
                             <p class="collapseP">
-                                Ready to leverage my curious nature to find ways to design and ehance user interfaces. I've enjoyed what I've learned so far, and plan to keep learning and growing.
-                                Please see my resume here:
+                            With an eager mind and a passion for crafting intuitive interfaces, I'm thrilled with the knowledge I've gained so far and am committed to a journey of continuous learning and growth in tech. While my 3-month boot camp has provided a solid foundation, I recognize that this is just the beginning of my tech career! I'm excited to embrace the challenges ahead, expand my skillset, and ultimately create meaningful experiences for others.
                             </p>
                         </Collapsible>
                         
