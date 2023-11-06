@@ -29,8 +29,8 @@ const styles = {
         lineHeight: 3.5,
         fontSize: '3rem',
         color: 'white',
-        backgroundColor: 'black',
-        padding: '1.5rem',
+        backgroundColor: 'white',
+        padding: '2rem',
     },
     // content: {
     //     padding: 5,

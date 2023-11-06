@@ -7,11 +7,11 @@ const styles = {
         flexDirection: 'row',
         // alignItems: 'flex-start',
         justifyContent: 'center',
-        background: 'black',
+        // background: 'black',
     },
     linkStyle: {
         border: '1px black',
-        padding: '5px',
+        paddingTop: '3rem',
     }
 };
 
@@ -20,13 +20,10 @@ function Footer() {
         <section style={styles.footerStyle} className="footer">
 
                 <div style={styles.linkStyle}>
-                    <a href="#">GitHub</a>
+                <img src="../../githubicon.svg" href="https://github.com/codeandlift706" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
                 </div>
                 <div style={styles.linkStyle}>
-                    <a href="#">Stack Overflow</a>
-                </div>
-                <div style={styles.linkStyle}>
-                    <a href="#">LinkedIn</a>
+                <img src="../../linkedinicon.svg" href="https://www.linkedin.com/in/chan-nguyen-57184223a/" className="card-icon hover:animate-pulse" alt="LinkedIn logo icon"></img>
                 </div>
                 {/* <div>
                     <p style={styles.linkStyle}>Chan Nguyen</p>

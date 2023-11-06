@@ -32,7 +32,7 @@ const styles = {
 
 function Header() {
     return (
-        <header className="homeTitle" id="home">
+        <header id="home">
             <div className="bothTitles">
                 <img src={nameTitle2} style={styles.size} alt="header title" />
                 <img src={subTitle2} style={styles.subsize} alt="header subtitle" className="subHeading" />
