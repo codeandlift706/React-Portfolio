@@ -9,7 +9,7 @@ import css from '../../public/cssLogo.svg'
 import materialize from '../../public/materializeLogo.svg'
 import tailwind from '../../public/tailwindLogo.svg'
 import bootstrap from '../../public/bootstrapLogo.svg'
-import javascript from '../../public/javascriptLogo.svg'
+import javascript from '../../public/javascriptLogo.png'
 import jquery from '../../public/jqueryLogo.svg'
 import node from '../../public/nodeLogo.svg'
 import express from '../../public/expressLogo.svg'
@@ -29,8 +29,8 @@ const styles = {
         lineHeight: 3.5,
         fontSize: '3rem',
         color: 'white',
-        backgroundColor: 'white',
-        padding: '2rem',
+        backgroundColor: '#f8f4f0',
+        paddingTop: '4rem',
     },
     // content: {
     //     padding: 5,
@@ -191,15 +191,15 @@ function Project() {
                 </div>
 
                 <div class="tech-icon tooltip">
-                    <a><img src={javascript} class="tech-icon tooltiptext6" alt="" /></a>
+                    <a><img src={jquery} class="tech-icon tooltiptext6" alt="" /></a>
                 </div>
 
                 <div class="tech-icon tooltip">
-                    <a><img src={jquery} class="tech-icon tooltiptext7" alt="" /></a>
+                    <a><img src={javascript} class="tech-icon tooltiptext7" alt="" /></a>
                 </div>
 
                 <div class="tech-icon tooltip">
-                    <a><img src={node} class="tech-icon tooltiptext8" alt="" /></a>
+                    <a><img src={handlebars} class="tech-icon tooltiptext8" alt="" /></a>
                 </div>
 
                 <div class="tech-icon tooltip">
@@ -207,7 +207,7 @@ function Project() {
                 </div>
 
                 <div class="tech-icon tooltip">
-                    <a><img src={handlebars} class="tech-icon tooltiptext10" alt="" /></a>
+                    <a><img src={node} class="tech-icon tooltiptext10" alt="" /></a>
                 </div>
 
                 <div class="tech-icon tooltip">

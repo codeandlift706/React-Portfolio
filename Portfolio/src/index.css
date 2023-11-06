@@ -23,10 +23,10 @@ body {
   display: flex;
   /* min-width: 320px;
   min-height: 100vh; */
-  background-color: white;
+  background-color: #f8f4f0;
   /* font-family: 'Jost', sans-serif; */
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .nav {
@@ -73,7 +73,7 @@ body {
 .card {
 margin: 4rem 1rem;
 height: 20%;
-width: 400px;
+width: 350px;
 }
 
 .card-action {
@@ -103,91 +103,91 @@ width: 400px;
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(0, 0, 255, 0.7);
+  background-color: #e34c26;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext2 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(255, 0, 0, 0.7);
+  background-color: #264de4;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext3 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(9, 255, 0, 0.7);
+  background-color: #D77A89;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext4 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(255, 247, 0, 0.818);
+  background-color: #3490dc;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext5 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(0, 213, 255, 0.7);
+  background-color: #563d7c;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext6 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(91, 35, 205, 0.7);
+  background-color: #78cff5;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext7 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(194, 60, 208, 0.7);
+  background-color: #F0DB4F;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext8 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(245, 0, 61, 0.7);
+  background-color: #5c4848;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext9 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(211, 246, 17, 0.7);
+  background-color: darkslategray;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext10 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(10, 119, 96, 0.7);
+  background-color: #68A063;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext11 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(255, 221, 2, 0.7);
+  background-color: #589636;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext12 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(255, 90, 25, 0.7);
+  background-color: #F29111;
   transition: background-color 1s ease-out 100ms;
 }
 
 .tooltip:hover .tooltiptext13 {
   visibility: visible;
   opacity: 1.0;
-  background-color: rgba(76, 255, 157, 0.7);
+  background-color: #A8986F;
   transition: background-color 1s ease-out 100ms;
 }
 
