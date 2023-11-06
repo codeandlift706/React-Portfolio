@@ -1,4 +1,3 @@
-
 import contactHeading from '../assets/contactHeading.png'
 
 const styles = {

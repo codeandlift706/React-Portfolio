@@ -1,23 +1,8 @@
-// A single `Header` component that appears on multiple pages
-
 import nameTitle2 from '../assets/nameTitle2.png'
 import subTitle2 from '../assets/subTitle2.png'
 
 
 const styles = {
-    // headerStyle: {
-    //     background: 'white',
-    //     padding: 200,
-    //     flexDirection: 'row',
-    //     alignItems: 'flex-start',
-    //     justifyContent: 'center',
-    // },
-    // headingStyle: {
-    //     fontSize: '25px',
-    //     flexDirection: 'row',
-    //     alignItems: 'flex-start',
-    //     justifyContent: 'center',
-    // },
     size: {
         height: '100%',
         width: '100%',
@@ -27,7 +12,6 @@ const styles = {
         width: '100%',
     }
 };
-
 
 
 function Header() {

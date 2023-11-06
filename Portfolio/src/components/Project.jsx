@@ -1,4 +1,3 @@
-
 import projectHeading from '../assets/projectHeading.png'
 import soon from '../assets/soon.jpeg'
 import girlsHelpDesk from '../assets/GirlsHelpDesk.png'
@@ -6,7 +5,6 @@ import fridge from '../assets/Fridge.png'
 import weather from '../assets/Weather.png'
 import book from '../assets/Book.png'
 import social from '../assets/Social.png'
-// import githubicon from '../../public/githubicon.svg'
 import html from '../../public/htmlLogo.svg'
 import css from '../../public/cssLogo.svg'
 import materialize from '../../public/materializeLogo.svg'

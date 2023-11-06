@@ -46,7 +46,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 17rem 8rem 27rem 8rem;
+  margin: 17rem 8rem 28rem 8rem;
 }
 
 #project {
@@ -58,8 +58,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* flex-direction: column; */
-  /* background-color: white; */
 }
 
 .card-content {

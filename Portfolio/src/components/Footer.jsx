@@ -1,5 +1,3 @@
-// A single `Footer` component that appears on multiple pages
-
 const styles = {
     footerStyle: {
         display: 'flex',
