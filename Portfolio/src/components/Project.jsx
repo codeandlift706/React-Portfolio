@@ -50,6 +50,9 @@ const styles = {
         backgroundColor: '#453F41',
         padding: '0.4rem',
         color: 'white',
+    },
+    line: {
+        paddingBottom: '0.4rem',
     }
 };
 
@@ -117,7 +120,6 @@ function Project() {
             </div>
 
             <div class="projectContainer">
-
                 <div class="row">
                     <div class="col s12 m7">
                         <div class="card">
@@ -232,6 +234,7 @@ function Project() {
                     </div>
                 </div>
             </div>
+            <h2 style={styles.line}>*More projects are available on GitHub.</h2>
 
 
 
