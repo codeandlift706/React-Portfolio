@@ -1,4 +1,3 @@
-// A single `Project` component that will be used multiple times in the Portfolio section
 
 import projectHeading from '../assets/projectHeading.png'
 import girlsHelpDesk from '../assets/GirlsHelpDesk.png'
@@ -44,7 +43,7 @@ const styles = {
     //     border: black,
     // },
     iconBar: {
-        backgroundColor: 'gray',
+        backgroundColor: '#41372F',
         padding: '0.4rem',
         color: 'white',
     }

@@ -25,8 +25,8 @@ function Footer() {
                 <div style={styles.linkStyle}>
                 <img src="../../linkedinicon.svg" href="https://www.linkedin.com/in/chan-nguyen-57184223a/" className="card-icon hover:animate-pulse" alt="LinkedIn logo icon"></img>
                 </div>
-                {/* <div>
-                    <p style={styles.linkStyle}>Chan Nguyen</p>
+                                {/* <div style={styles.linkStyle}>
+                <img src="../../chanLogo.png" href="https://www.linkedin.com/in/chan-nguyen-57184223a/" className="cn-logo hover:animate-pulse" alt="LinkedIn logo icon"></img>
                 </div> */}
         </section>
     );
