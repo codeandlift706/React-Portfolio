@@ -1,7 +1,11 @@
 
 import projectHeading from '../assets/projectHeading.png'
+import soon from '../assets/soon.jpeg'
 import girlsHelpDesk from '../assets/GirlsHelpDesk.png'
 import fridge from '../assets/Fridge.png'
+import weather from '../assets/Weather.png'
+import book from '../assets/Book.png'
+import social from '../assets/Social.png'
 // import githubicon from '../../public/githubicon.svg'
 import html from '../../public/htmlLogo.svg'
 import css from '../../public/cssLogo.svg'
@@ -43,7 +47,7 @@ const styles = {
     //     border: black,
     // },
     iconBar: {
-        backgroundColor: '#41372F',
+        backgroundColor: '#453F41',
         padding: '0.4rem',
         color: 'white',
     }
@@ -62,11 +66,14 @@ function Project() {
                     <div class="col s12 m7">
                         <div class="card">
                             <div class="card-image">
-                                <img src={fridge} />
+                                <img src={soon} />
                                 <span class="card-title">Type Racer</span>
                             </div>
                             <div class="card-content">
-                                <p>Type Racer Game - Coming Soon</p>
+                                <p>Type Racer Game</p>
+                                <p>
+                                    Create a MERN stack app with React, GraphQL, Node.js, Express.js, MongoDB, & Mongoose ODM.
+                                </p>
                             </div>
                             <div class="card-action">
                                 <img src="../../githubicon.svg" href="#" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
@@ -85,7 +92,10 @@ function Project() {
                                 <span class="card-title">Girls Help Desk</span>
                             </div>
                             <div class="card-content">
-                                <p>Create a full-stack application using Node.js & Express.js to create a RESTful API, Handlebars.js as the templating engine, and MySQL & the Sequelize ORM for the database.</p>
+                                {/* <p>Create a full-stack application using Node.js & Express.js to create a RESTful API, Handlebars.js as the templating engine, and MySQL & the Sequelize ORM for the database.</p> */}
+                                <p>Girls Help Desk</p>
+                                <p>Create a help desk ticketing app with Node.js, Express.js, Handlebars.js, MySQL, & Sequelize ORM.</p>
+
                             </div>
                             <div class="card-action">
                                 <img src="../../githubicon.svg" href="https://github.com/Vannasaur/girls-help-desk" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
@@ -101,10 +111,10 @@ function Project() {
                         <div class="card">
                             <div class="card-image">
                                 <img src={fridge} />
-                                <span class="card-title">Empty Your Fridge</span>
                             </div>
                             <div class="card-content">
-                                <p>Generate recipes and nutritional facts using MealDB API & Edamam Nutritional Data API that features dynamically updated HTML and CSS.</p>
+                                <p>Empty Your Fridge</p>
+                                <p>Generate recipes and nutritional facts using Database API's that features dynamically updated HTML & CSS.</p>
                             </div>
                             <div class="card-action">
                                 <img src="../../githubicon.svg" href="https://github.com/Vannasaur/girls-help-desk" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
@@ -118,15 +128,15 @@ function Project() {
                     <div class="col s12 m7">
                         <div class="card">
                             <div class="card-image">
-                                <img src={fridge} />
-                                <span class="card-title">Social Network API</span>
+                                <img src={social} />
                             </div>
                             <div class="card-content">
-                                <p>Build an API for a social network web application using Express.js for routing, a MongoDB database, and the Mongoose ODM.</p>
+                                <p>Social Network API</p>
+                                <p>Build a social network web app using Express.js, MongoDB database, & Mongoose ODM.</p>
                             </div>
                             <div class="card-action">
                                 <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Social-Network-API" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
-                                <a class="demo" href="#">Demo N/A</a>
+                                <a class="demo" href="https://drive.google.com/file/d/197kZ45mBUmqM12JN_hLi1qhese3szY-A/view">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -136,11 +146,11 @@ function Project() {
                     <div class="col s12 m7">
                         <div class="card">
                             <div class="card-image">
-                                <img src={fridge} />
-                                <span class="card-title">Book Search Engine</span>
+                                <img src={book} />
                             </div>
                             <div class="card-content">
-                                <p>Refactor a Google Books API search engine built with a RESTful API to be a GraphQL API built with Apollo Server using the MERN stack.</p>
+                                <p>Book Search Engine</p>
+                                <p>Refactor a Google Books API search engine to a GraphQL API with Apollo Server using the MERN stack.</p>
                             </div>
                             <div class="card-action">
                                 <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Book-Search-Engine" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
@@ -154,11 +164,11 @@ function Project() {
                     <div class="col s12 m7">
                         <div class="card">
                             <div class="card-image">
-                                <img src={fridge} />
-                                <span class="card-title">Weather Dashboard</span>
+                                <img src={weather} />
                             </div>
                             <div class="card-content">
-                                <p>Build a weather forecast dashboard to run in the browser that features dynamically updated HTML and CSS.</p>
+                                <p>Weather Dashboard</p>
+                                <p>Build a weather forecast dashboard to run in the browser that features dynamically updated HTML & CSS.</p>
                             </div>
                             <div class="card-action">
                                 <img src="../../githubicon.svg" href="https://github.com/codeandlift706/Weather-Dashboard" className="card-icon hover:animate-pulse" alt="Github logo icon"></img>
