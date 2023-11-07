@@ -24,13 +24,13 @@ React Collapsible package: https://www.npmjs.com/package/react-collapsible.
 This can be used when clients want to create a portfolio utilizing React + Vite.
 
 View a screenshot of the header:
-![Screenshot of header](assets/Portfolio/header.png)
+![Screenshot of header](Portfolio/assets/header.png)
 View a screenshot of the project section:
-![Screenshot of projects](assets/Portfolio/project.png)
+![Screenshot of projects](Portfolio/assets/project.png)
 View a screenshot of the about section:
-![Screenshot of about](assets/Portfolio/about.png)
+![Screenshot of about](Portfolio/assets/about.png)
 View a screenshot of the contact section:
-![Screenshot of contact](assets/Portfolio/contact.png)
+![Screenshot of contact](Portfolio/assets/contact.png)
 
 ## License
 This project is under the MIT license.
