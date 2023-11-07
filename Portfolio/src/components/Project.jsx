@@ -35,21 +35,17 @@ const styles = {
         backgroundColor: '#f8f4f0',
         paddingTop: '4rem',
     },
-    // content: {
-    //     padding: 5,
-    // },
     size: {
         margin: '2rem',
         height: '20%',
         width: '25%',
     },
-    // border: {
-    //     border: black,
-    // },
     iconBar: {
         backgroundColor: '#453F41',
         padding: '0.4rem',
         color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
     },
     line: {
         paddingBottom: '0.4rem',
@@ -234,7 +230,7 @@ function Project() {
                     </div>
                 </div>
             </div>
-            <h2 style={styles.line}>*More projects are available on GitHub.</h2>
+            <h2 style={styles.line}>*View more of my work on GitHub.</h2>
 
 
 

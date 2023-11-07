@@ -253,7 +253,7 @@ color: black;
 }
 
 .aboutContent {
-  margin: 3rem 5rem 3rem 12rem;
+  margin: 3rem 3rem 3rem 12.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,12 +267,12 @@ color: black;
 
 
 .collapseP {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
 }
 
 .collapseP:hover {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
 }
 
 #contact {
