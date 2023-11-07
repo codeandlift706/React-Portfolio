@@ -1,5 +1,5 @@
 import projectHeading from '../assets/projectHeading.png'
-import soon from '../assets/soon.jpeg'
+import type from '../assets/type.png'
 import girlsHelpDesk from '../assets/GirlsHelpDesk.png'
 import fridge from '../assets/Fridge.png'
 import weather from '../assets/Weather.png'
@@ -120,18 +120,17 @@ function Project() {
                     <div class="col s12 m7">
                         <div class="card">
                             <div class="card-image">
-                                <img src={soon} />
+                                <img src={type} />
                             </div>
                             <div class="card-content">
-                                <p>TypeTester Game</p>
+                                <p>typetester Game</p>
                                 <p>
                                     Create a MERN stack app with React, GraphQL, Node.js, Express.js, MongoDB, & Mongoose ODM.
                                 </p>
                             </div>
                             <div class="card-action">
-                                <a href="#"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
-
-                                <a class="demo" href="#">Demo</a>
+                                <a href="https://github.com/codeandlift706/typetester"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                                <a class="demo" href="https://typetester.onrender.com/">Demo</a>
                             </div>
                         </div>
                     </div>
