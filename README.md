@@ -14,11 +14,17 @@ The purpose of this project is to create a single-page application portfolio usi
 
 ## Installation
 VS Code to code the back end of the application. 
+
 GibHub for version control. 
-Initialize the app with React Vite in the CLI: https://vitejs.dev/guide/. 
+
+Initialize the app with React Vite in the CLI: https://vitejs.dev/guide/.
+
 Tailwind CSS framework: https://tailwindcss.com/. 
+
 Materialize CSS framework: https://materializecss.com/.
+
 React Collapsible package: https://www.npmjs.com/package/react-collapsible.
+
 
 ## Usage
 This can be used when clients want to create a portfolio utilizing React + Vite.
