@@ -44,11 +44,11 @@ function Contact() {
                     </p>
 
                     <p style={styles.linkStyle}>
-                        < a href="mailto:channguyen715@gmail.com">Email: channguyen715@gmail.com</a>
+                        < a href="mailto:channguyen715@gmail.com" target="_blank">Email: channguyen715@gmail.com</a>
                     </p>
 
                     <p style={styles.linkStyle}>
-                        < a href="https://calendly.com/channguyen715/15min">Quick Chat: Set up time via Calendly</a>
+                        < a href="https://calendly.com/channguyen715/15min" target="_blank">Quick Chat: Set up time via Calendly</a>
                     </p>
                 </div>
             </div>
