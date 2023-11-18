@@ -19,10 +19,10 @@ function Navbar() {
                 <a href="#home"><img src="../homeicon.svg" className="icon hover:animate-pulse" alt="home icon" /></a>
             </li>
             <li className="nav-item">
-                <a href="#about"><img src="../abouticon.svg" className="icon hover:animate-pulse" alt="about icon" /></a>
+                <a href="#project"><img src="../projecticon.svg" className="icon hover:animate-pulse" alt="project icon" /></a>
             </li>
             <li className="nav-item">
-                <a href="#project"><img src="../projecticon.svg" className="icon hover:animate-pulse" alt="project icon" /></a>
+                <a href="#about"><img src="../abouticon.svg" className="icon hover:animate-pulse" alt="about icon" /></a>
             </li>
             <li className="nav-item">
                 <a href="#contact"><img src="../contacticon.svg" className="icon hover:animate-pulse" alt="contact icon"/></a>

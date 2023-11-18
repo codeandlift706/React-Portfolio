@@ -18,7 +18,7 @@ function Footer() {
         <section style={styles.footerStyle} className="footer">
 
             <div style={styles.linkStyle}>
-                <a href="https://github.com/codeandlift70" target="_blank"><img src="../../githubicon.svg" className="footer-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                <a href="https://github.com/codeandlift706" target="_blank"><img src="../../githubicon.svg" className="footer-icon hover:animate-pulse" alt="Github logo icon" /></a>
             </div>
 
             <div style={styles.linkStyle}>
