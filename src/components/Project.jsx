@@ -150,7 +150,7 @@ function Project() {
                             </div>
                             <div class="card-action">
                                 <a href="https://github.com/Vannasaur/girls-help-desk" target="_blank"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
-                                <a class="demo" href="https://github.com/Vannasaur/girls-help-desk" target="_blank">Demo</a>
+                                <a class="demo" href="https://murmuring-chamber-70429-75790581b652.herokuapp.com/login" target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>
