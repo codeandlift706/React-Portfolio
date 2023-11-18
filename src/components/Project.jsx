@@ -129,8 +129,8 @@ function Project() {
                                 </p>
                             </div>
                             <div class="card-action">
-                                <a href="https://github.com/codeandlift706/typetester"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
-                                <a class="demo" href="https://typetester.onrender.com/">Demo</a>
+                                <a href="https://github.com/codeandlift706/typetester" target="_blank"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                                <a class="demo" href="https://typetester.onrender.com/" target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -149,8 +149,8 @@ function Project() {
 
                             </div>
                             <div class="card-action">
-                                <a href="https://github.com/Vannasaur/girls-help-desk"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
-                                <a class="demo" href="https://github.com/Vannasaur/girls-help-desk">Demo</a>
+                                <a href="https://github.com/Vannasaur/girls-help-desk" target="_blank"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                                <a class="demo" href="https://github.com/Vannasaur/girls-help-desk" target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -168,8 +168,8 @@ function Project() {
                                 <p>Generate recipes and nutritional facts using Database API's that features dynamically updated HTML & CSS.</p>
                             </div>
                             <div class="card-action">
-                                <a href="https://github.com/MJ-AZN/Empty-Your-Fridge"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
-                                <a class="demo" href="https://mj-azn.github.io/Empty-Your-Fridge/">Demo</a>
+                                <a href="https://github.com/MJ-AZN/Empty-Your-Fridge" target="_blank"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                                <a class="demo" href="https://mj-azn.github.io/Empty-Your-Fridge/" target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -186,8 +186,8 @@ function Project() {
                                 <p>Build a social network web app using Express.js, MongoDB database, & Mongoose ODM.</p>
                             </div>
                             <div class="card-action">
-                                <a href="https://github.com/codeandlift706/Social-Network-API"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
-                                <a class="demo" href="https://drive.google.com/file/d/197kZ45mBUmqM12JN_hLi1qhese3szY-A/view">Demo</a>
+                                <a href="https://github.com/codeandlift706/Social-Network-API" target="_blank"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                                <a class="demo" href="https://drive.google.com/file/d/197kZ45mBUmqM12JN_hLi1qhese3szY-A/view" target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -204,8 +204,8 @@ function Project() {
                                 <p>Refactor a Google Books API search engine to a GraphQL API with Apollo Server using the MERN stack.</p>
                             </div>
                             <div class="card-action">
-                                <a href="https://github.com/codeandlift706/Book-Search-Engine"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
-                                <a class="demo" href="https://book-search-engine-1lzm.onrender.com/">Demo</a>
+                                <a href="https://github.com/codeandlift706/Book-Search-Engine" target="_blank"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                                <a class="demo" href="https://book-search-engine-1lzm.onrender.com/" target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -222,8 +222,8 @@ function Project() {
                                 <p>Build a weather forecast dashboard to run in the browser that features dynamically updated HTML & CSS.</p>
                             </div>
                             <div class="card-action">
-                                <a href="https://github.com/codeandlift706/Weather-Dashboard"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
-                                <a class="demo" href="https://codeandlift706.github.io/Weather-Dashboard/">Demo</a>
+                                <a href="https://github.com/codeandlift706/Weather-Dashboard" target="_blank"><img src="../../githubicon.svg" className="card-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                                <a class="demo" href="https://codeandlift706.github.io/Weather-Dashboard/" target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>

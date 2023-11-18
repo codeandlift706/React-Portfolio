@@ -18,11 +18,11 @@ function Footer() {
         <section style={styles.footerStyle} className="footer">
 
             <div style={styles.linkStyle}>
-                <a href="https://github.com/codeandlift70"><img src="../../githubicon.svg" className="footer-icon hover:animate-pulse" alt="Github logo icon" /></a>
+                <a href="https://github.com/codeandlift70" target="_blank"><img src="../../githubicon.svg" className="footer-icon hover:animate-pulse" alt="Github logo icon" /></a>
             </div>
 
             <div style={styles.linkStyle}>
-                <a href="https://www.linkedin.com/in/chan-nguyen-57184223a/"><img src="../../linkedinicon.svg" className="footer-icon hover:animate-pulse" alt="Linkedin logo icon" /></a>
+                <a href="https://www.linkedin.com/in/chan-nguyen-57184223a/" target="_blank"><img src="../../linkedinicon.svg" className="footer-icon hover:animate-pulse" alt="Linkedin logo icon" /></a>
             </div>
 
         </section>
