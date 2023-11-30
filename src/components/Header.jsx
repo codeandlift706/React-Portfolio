@@ -1,6 +1,5 @@
-import nameTitle2 from '../assets/nameTitle2.png'
-import subTitle2 from '../assets/subTitle2.png'
-
+import nameTitle from '../assets/nameTitle.png'
+import subTitle from '../assets/subTitle.png'
 
 const styles = {
     size: {
@@ -18,8 +17,8 @@ function Header() {
     return (
         <header id="home">
             <div className="bothTitles">
-                <img src={nameTitle2} style={styles.size} alt="header title" />
-                <img src={subTitle2} style={styles.subsize} alt="header subtitle" className="subHeading" />
+                <img src={nameTitle} style={styles.size} alt="header title" />
+                <img src={subTitle} style={styles.subsize} alt="header subtitle" className="subHeading" />
             </div>
         </header>
     );

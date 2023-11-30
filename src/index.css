@@ -34,11 +34,6 @@ body {
   top: 0;
 }
 
-
-
-
-
-
 #home {
   background-image: url(../public/montreal.png);
   background-size: cover;
@@ -51,6 +46,14 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 17rem 8rem 28rem 8rem;
+}
+
+#nameTitle {
+
+}
+
+#subTitle {
+  
 }
 
 #project {
