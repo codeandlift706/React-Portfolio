@@ -391,7 +391,7 @@ button:focus-visible {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 320px) {
   .home {
     background-image: url(../public/montreal.png);
     background-size: cover;
