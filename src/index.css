@@ -70,9 +70,7 @@ body {
 .projectHeader {
   display: flex;
   justify-content: center;
-  min-height: 50;
-  line-height: 3.5;
-  font-size: 3rem;
+  align-items: center;
   background-color: white;
   padding: 4rem 0rem 2rem 0rem;
 }
@@ -254,7 +252,7 @@ body {
 
 .aboutPicture {
   border-radius: 50%;
-  width: 60%;
+  width: 75%;
 }
 
 .aboutHeading {
@@ -416,11 +414,13 @@ button:focus-visible {
 
   .aboutPicture {
     margin-top: 2rem;
+    margin-left: 5rem;
   }
 
 
   .aboutSpace {
     padding: 1rem;
+    margin-left: 5rem;
     font-size: 1rem;
     display: block;
   }
