@@ -1,4 +1,8 @@
 import contactHeading from '../assets/contactHeading.png'
+import location from '../../public/location.svg'
+import phone from '../../public/phone.svg'
+import email from '../../public/email.svg'
+import calendar from '../../public/calendar.svg'
 
 
 function Contact() {
@@ -10,10 +14,10 @@ function Contact() {
 
             <div class="contact-content-container">
                 <div>
-                    <img src="../location.svg" className="contact-icon" alt="location icon" />
-                    <img src="../phone.svg" className="contact-icon" alt="phone icon" />
-                    <img src="../email.svg" className="contact-icon" alt="email icon" />
-                    <img src="../calendar.svg" className="contact-icon" alt="calendar icon" />
+                    <img src={location} className="contact-icon" alt="location icon" />
+                    <img src={phone} className="contact-icon" alt="phone icon" />
+                    <img src={email} className="contact-icon" alt="email icon" />
+                    <img src={calendar} className="contact-icon" alt="calendar icon" />
                 </div>
                 <div>
                     <p className="contactLink">
