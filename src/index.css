@@ -34,7 +34,7 @@ body {
   top: 0;
 }
 
-#home {
+.home {
   background-image: url(../public/montreal.png);
   background-size: cover;
   background-attachment: fixed;
@@ -48,13 +48,11 @@ body {
   margin: 17rem 8rem 28rem 8rem;
 }
 
-#nameTitle {
-
+.headerTitle {
+height: 100%;
+width: 100%;
 }
 
-#subTitle {
-  
-}
 
 #project {
   display: flex;
