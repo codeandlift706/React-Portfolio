@@ -404,6 +404,7 @@ button:focus-visible {
     width: 100%;
   }
 
+
   .aboutContent {
     display: flex;
     flex-direction: column;
@@ -419,7 +420,7 @@ button:focus-visible {
 
 
   .aboutSpace {
-    padding: 1rem;
+    padding-top: 1rem;
     margin-left: 5rem;
     font-size: 1rem;
     display: block;
