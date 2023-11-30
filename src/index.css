@@ -53,9 +53,22 @@ height: 100%;
 width: 100%;
 }
 
-#project {
+.tech-icon-container {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0.4rem;
+  justify-content: center;
+  background-color: #453F41;
+}
+
+.projectHeader {
   display: flex;
   justify-content: center;
+  min-height: 50;
+  line-height: 3.5;
+  font-size: 3rem;
+  background-color: #f8f4f0;
+  padding-top: 4rem;
 }
 
 .projectContainer {
@@ -84,9 +97,8 @@ width: 100%;
   margin-right: 10px;
 }
 
-.tech-icon-container {
-  display: inline-flex;
-  flex-direction: row;
+.cardLine {
+padding-bottom: 0.4rem;
 }
 
 .tooltip .tech-icon {
@@ -342,17 +354,6 @@ footer {
   margin: 5px;
 }
 
-/* img {
-  opacity: 0.5;
-  background: transparent;
-  transition: background-color 1s ease-out 100ms;
-}
-
-img:hover {
-  opacity: 1.0;
-background-color: blue;
-} */
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -389,9 +390,24 @@ button:focus-visible {
   }
 }
 
-
-/* @media all and (max-width: 600px) and (min-width: 100px) {
-  .card {
-    background: #ccc;
+@media all and (max-width: 768px) and (min-width: 320px) {
+  /* .Collapsible {
+    font-size: 1.2rem;
+    margin: 0.1rem;
   }
+  
+  .collapseP {
+    font-size: 0.8rem;
+  } */
+}
+
+/* img {
+  opacity: 0.5;
+  background: transparent;
+  transition: background-color 1s ease-out 100ms;
+}
+
+img:hover {
+  opacity: 1.0;
+background-color: blue;
 } */
