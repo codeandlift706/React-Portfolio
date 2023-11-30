@@ -21,7 +21,6 @@ import mongoose from '../../public/mongooseLogo.svg'
 import react from '../../public/reactLogo.svg'
 
 
-
 const styles = {
     card: {
         margin: '15rem',

@@ -1,16 +1,3 @@
-const styles = {
-    navBarStyle: {
-        display: 'flex',
-        fontFamily: 'helvetica',
-        flexDirection: 'row',
-        alignItems: 'flex-start',
-        justifyContent: 'flex-start',
-    },
-    linkStyle: {
-        border: '1px black',
-        padding: '5px',
-    }
-};
 
 function Navbar() {
     return (
