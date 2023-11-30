@@ -265,7 +265,6 @@ color: black;
   font-size: 2rem;
 }
 
-
 .collapseP {
   font-size: 1.35rem;
 }
@@ -275,18 +274,21 @@ color: black;
   font-size: 1.35rem;
 }
 
-#contact {
+.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#contactHead {
+.contactHead {
   background-image: url(../public/vietnam.png);
   display: flex;
   justify-content: center;
   background-size: cover;
   background-attachment: fixed;
+  font-size: 4rem;
+  color: white;
+  padding: 16rem;
 }
 
 .contact-content-container {
@@ -299,6 +301,11 @@ color: black;
   width: 2rem;
   height: 2rem;
   margin: 0 1rem 0 2rem;
+}
+
+.contactLink {
+  text-align: left;
+  padding-left: 1rem;
 }
 
 a {
