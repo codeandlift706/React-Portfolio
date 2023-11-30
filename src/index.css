@@ -47,7 +47,7 @@ body {
 }
 
 .bothTitles {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -79,6 +79,7 @@ body {
 
 .projectContainer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -95,6 +96,7 @@ body {
   /* margin: 4rem 1rem; */
   height: 20%;
   width: 25rem;
+  flex-shrink: 1;
 }
 
 .card-icon {
@@ -404,6 +406,24 @@ button:focus-visible {
     width: 100%;
   }
 
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .aboutPicture {
+    margin-top: 2rem;
+  }
+
+
+  .aboutSpace {
+    padding: 1rem;
+    font-size: 1rem;
+    display: block;
+  }
 
   /* .Collapsible {
     font-size: 1.2rem;
