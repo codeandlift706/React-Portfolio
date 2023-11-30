@@ -1,47 +1,22 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
-
 import aboutHeading from '../assets/aboutHeading.png'
-import portfolioPic2 from '../assets/portfolioPic2.jpg'
+import portfolioPic from '../assets/portfolioPic.png'
 
-
-const styles = {
-    card: {
-    },
-    heading: {
-        minHeight: 50,
-        pneHeight: 3.5,
-        fontSize: '4rem',
-        color: 'white',
-        padding: '16rem',
-    },
-    content: {
-        padding: '5em',
-    },
-    picture: {
-        borderRadius: '240px',
-        width: '28%',
-    },
-};
 
 function About() {
     return (
         <>
-
-            <div style={styles.card} id="about">
-                <div style={styles.heading} id="aboutHead">
+            <div className="aboutCard">
+                <div className="aboutHeading">
                     <img src={aboutHeading} alt="header title" />
                 </div>
-
-                <div class="aboutContent">
-                    <img style={styles.picture} src={portfolioPic2} alt="picture" />
-
-                    <div style={styles.content}>
-
+                <div className="aboutContent">
+                    <img src={portfolioPic} className="aboutPicture" alt="picture" />
+                    <div className="aboutSpace">
                         <div class="progress white">
                             <div class="indeterminate black"></div>
                         </div>
-
                         <Collapsible trigger="A Little About Me">
                             <p class="collapseP">Born in Montreal, Quebec & raised in Orange County, Calfornia.</p>
                             <p class="collapseP">Husky enthusiast, fantasy football player, growing powerlifter. </p>
@@ -55,18 +30,14 @@ function About() {
 
                         <Collapsible trigger="Here & Now">
                             <p class="collapseP">
-                            With an eager mind and a passion for crafting intuitive interfaces, I'm thrilled with the knowledge I've gained so far and am committed to a journey of continuous learning and growth in tech. </p>
+                                With an eager mind and a passion for crafting intuitive interfaces, I'm thrilled with the knowledge I've gained so far and am committed to a journey of continuous learning and growth in tech. </p>
                             <p class="collapseP">While my 3-month boot camp has provided a solid foundation, I recognize that this is just the beginning of my tech career. </p>
                             <p class="collapseP">I'm excited to embrace the challenges ahead, expand my skillset, and ultimately create meaningful experiences for others. </p>
                             <p class="collapseP">Thanks for the read, </p>
                             <p class="collapseP">C.</p>
                         </Collapsible>
-                        
-
                     </div>
-
                 </div>
-
             </div>
         </>
     );
