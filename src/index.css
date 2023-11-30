@@ -321,9 +321,13 @@ a:hover {
 footer {
   display: flex;
   justify-content: center;
-  position: fixed;
+  flex-direction: row;
   bottom: 0;
   width: 100%;
+}
+
+.footerLink {
+  padding-top: 3rem;
 }
 
 .footer-icon {
