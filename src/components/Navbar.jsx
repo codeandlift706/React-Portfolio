@@ -10,7 +10,7 @@ function Navbar() {
                 <a href="#home"><img src={home} className="icon hover:animate-pulse" alt="home icon" /></a>
             </li>
             <li className="nav-item">
-                <a href="#project"><img src={project} className="icon hover:animate-pulse" alt="project icon" /></a>
+                <a href="#projects"><img src={project} className="icon hover:animate-pulse" alt="project icon" /></a>
             </li>
             <li className="nav-item">
                 <a href="#about"><img src={about} className="icon hover:animate-pulse" alt="about icon" /></a>

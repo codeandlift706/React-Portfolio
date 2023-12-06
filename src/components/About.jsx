@@ -7,7 +7,7 @@ import portfolioPic from '../assets/portfolioPic.png'
 function About() {
     return (
         <>
-            <div className="aboutCard">
+            <div id="about">
                 <div className="aboutHeading">
                     <img src={aboutHeading} alt="header title" />
                 </div>

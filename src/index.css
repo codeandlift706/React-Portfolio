@@ -40,7 +40,7 @@ body {
   z-index: 1;
 }
 
-.home {
+#home {
   background-image: url(../public/montreal.png);
   background-size: cover;
   background-attachment: fixed;
@@ -219,7 +219,8 @@ body {
 
 .card {
   /* filter: drop-shadow(30px 10px 4px #4444dd); */
-  filter: drop-shadow(1rem 1rem 10px);
+  /* filter: drop-shadow(1rem 1rem 10px); */
+  border: black solid 2px;
 }
 
 .card-content {
@@ -244,7 +245,7 @@ body {
   background-color: #453F41;
 }
 
-.aboutCard {
+#about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -292,7 +293,7 @@ body {
   font-size: 1.35rem;
 }
 
-.contact {
+#contact {
   display: flex;
   flex-direction: column;
   justify-content: center;

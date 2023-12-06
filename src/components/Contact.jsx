@@ -7,7 +7,7 @@ import calendar from '../../public/calendar.svg'
 
 function Contact() {
     return (
-        <section className="contact">
+        <section id="contact">
             <div className="contactHead">
                 <img src={contactHeading} alt="header title" />
             </div>

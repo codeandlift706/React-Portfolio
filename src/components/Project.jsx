@@ -82,9 +82,11 @@ function Project() {
                 </div>
             </div>
 
+<div id="projects">
             <div className="projectHeader hover:animate-pulse">
                 <a href="https://github.com/codeandlift706" target="_blank"><img src={projectHeading} alt="header title" /></a>
             </div>
+</div>
 
             <div className="projectContainer">
                 <div className="row">
